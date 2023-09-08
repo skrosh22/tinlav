@@ -1,0 +1,934 @@
+:root {
+  --default-bold-subheadline-font-family: "SFPro Text-Semibold", Helvetica;
+  --default-bold-subheadline-font-size: 15px;
+  --default-bold-subheadline-font-style: normal;
+  --default-bold-subheadline-font-weight: 400;
+  --default-bold-subheadline-letter-spacing: -.5px;
+  --default-bold-subheadline-line-height: 20px;
+  --label-colorlightprimary: #000;
+  --mini-paragraph-font-family: "Roboto-Regular", Helvetica;
+  --mini-paragraph-font-size: 12px;
+  --mini-paragraph-font-style: normal;
+  --mini-paragraph-font-weight: 400;
+  --mini-paragraph-letter-spacing: 0px;
+  --mini-paragraph-line-height: normal;
+  --paragraph-font-family: "Roboto-Regular", Helvetica;
+  --paragraph-font-size: 16px;
+  --paragraph-font-style: normal;
+  --paragraph-font-weight: 400;
+  --paragraph-letter-spacing: 0px;
+  --paragraph-line-height: normal;
+  --roboto-h2-font-family: "Roboto-Bold", Helvetica;
+  --roboto-h2-font-size: 32px;
+  --roboto-h2-font-style: normal;
+  --roboto-h2-font-weight: 700;
+  --roboto-h2-letter-spacing: 0px;
+  --roboto-h2-line-height: normal;
+  --roboto-h3-font-family: "Roboto-Regular", Helvetica;
+  --roboto-h3-font-size: 24px;
+  --roboto-h3-font-style: normal;
+  --roboto-h3-font-weight: 400;
+  --roboto-h3-letter-spacing: 0px;
+  --roboto-h3-line-height: normal;
+  --san-serif-IOS-paragraph-font-family: "SansSerif Collection-Regular", Helvetica;
+  --san-serif-IOS-paragraph-font-size: 13px;
+  --san-serif-IOS-paragraph-font-style: normal;
+  --san-serif-IOS-paragraph-font-weight: 400;
+  --san-serif-IOS-paragraph-letter-spacing: -.408px;
+  --san-serif-IOS-paragraph-line-height: 22px;
+  --systembluedark: #0a84ff;
+  --text-font-family: "Inter-Regular", Helvetica;
+  --text-font-size: 13px;
+  --text-font-style: normal;
+  --text-font-weight: 400;
+  --text-letter-spacing: -.408px;
+  --text-line-height: 22px;
+}
+
+.iphone-pro {
+  width: 437px;
+  height: 882px;
+  position: relative;
+}
+
+.iphone-pro .overlap-group {
+  height: 882px;
+  position: relative;
+}
+
+.iphone-pro .img {
+  object-fit: cover;
+  width: 390px;
+  height: 844px;
+  position: absolute;
+  top: 19px;
+  left: 24px;
+}
+
+.iphone-pro .img-2 {
+  width: 437px;
+  height: 882px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iphone-pro .statusbar-iphone {
+  width: 375px;
+  height: 44px;
+  position: absolute;
+  top: 19px;
+  left: 24px;
+}
+
+.iphone-pro .right-side {
+  width: 67px;
+  height: 11px;
+  position: absolute;
+  top: 17px;
+  left: 290px;
+}
+
+.iphone-pro .left-side {
+  width: 54px;
+  height: 21px;
+  position: absolute;
+  top: 12px;
+  left: 24px;
+}
+
+.iphone-pro .statusbar-time {
+  border-radius: 24px;
+  height: 21px;
+  position: relative;
+}
+
+.iphone-pro .text-wrapper {
+  color: var(--label-colorlightprimary);
+  font-family: var(--default-bold-subheadline-font-family);
+  font-size: var(--default-bold-subheadline-font-size);
+  font-style: var(--default-bold-subheadline-font-style);
+  font-weight: var(--default-bold-subheadline-font-weight);
+  letter-spacing: var(--default-bold-subheadline-letter-spacing);
+  line-height: var(--default-bold-subheadline-line-height);
+  text-align: center;
+  white-space: nowrap;
+  width: 54px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.screen {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.screen .div {
+  background-color: #fff;
+  width: 1280px;
+  height: 753px;
+  position: relative;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.resolution-fix {
+  margin-top: -1.5px;
+}
+
+.screen .group {
+  background-color: #fff;
+  border: 1px solid #787878;
+  width: 514px;
+  height: 445px;
+  position: absolute;
+  top: 90px;
+  left: 650px;
+}
+
+.screen .group-2 {
+  width: 336px;
+  height: 304px;
+  position: relative;
+  top: 118px;
+  left: 96px;
+}
+
+.screen .frame-button {
+  background-color: var(--systembluedark);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 240px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 14px 101px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.screen .text-wrapper-2 {
+  color: #fff;
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  font-style: var(--text-font-style);
+  font-weight: var(--text-font-weight);
+  letter-spacing: var(--text-letter-spacing);
+  line-height: var(--text-line-height);
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -6px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+.screen .group-3 {
+  width: 340px;
+  height: 181px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .group-4 {
+  width: 336px;
+  height: 46px;
+  position: absolute;
+  top: 135px;
+  left: 0;
+}
+
+.screen .div-wrapper {
+  background-color: #636366;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 158px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.button {
+  cursor: pointer;
+  color: #333;
+  background-color: #8f8f8f;
+  border: 1px solid #888;
+  border-radius: 6px;
+  margin: 0 10px;
+  padding: 14px 51px;
+}
+
+.button:hover {
+  background-color: #aaa;
+}
+
+.screen .frame-button-2 {
+  background-color: #636366;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 158px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 178px;
+}
+
+.screen .text-wrapper-3 {
+  color: #505050;
+  font-family: var(--roboto-h3-font-family);
+  font-size: var(--roboto-h3-font-size);
+  font-style: var(--roboto-h3-font-style);
+  font-weight: var(--roboto-h3-font-weight);
+  letter-spacing: var(--roboto-h3-letter-spacing);
+  line-height: var(--roboto-h3-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 53px;
+  left: 66px;
+}
+
+.screen .text-wrapper-4 {
+  color: #000;
+  font-family: var(--roboto-h2-font-family);
+  font-size: var(--roboto-h2-font-size);
+  font-style: var(--roboto-h2-font-style);
+  font-weight: var(--roboto-h2-font-weight);
+  letter-spacing: var(--roboto-h2-letter-spacing);
+  line-height: var(--roboto-h2-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 23px;
+}
+
+.screen .overlap-group-wrapper {
+  width: 516px;
+  height: 45px;
+  position: absolute;
+  top: 550px;
+  left: 650px;
+}
+
+.screen .overlap-group-2 {
+  background-color: #fff;
+  border: 1px solid #787878;
+  width: 514px;
+  height: 45px;
+  position: relative;
+}
+
+.screen .p {
+  color: #0000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  text-align: center;
+  width: 487px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.screen .span {
+  color: #000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+}
+
+.screen .text-wrapper-5 {
+  color: #0396f6;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+}
+
+.screen .text-wrapper-6 {
+  color: #000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 605px;
+  left: 790px;
+}
+
+.screen .social {
+  width: 298px;
+  height: 45px;
+  position: absolute;
+  top: 640px;
+  left: 750px;
+}
+
+.screen .unnamed {
+  object-fit: cover;
+  width: 153px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .download-on-the-app {
+  width: 134px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 164px;
+}
+
+.screen .group-5 {
+  width: 300px;
+  height: 21px;
+  position: absolute;
+  top: 705px;
+  left: 491px;
+}
+
+.screen .select-language {
+  width: 72px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper-7 {
+  color: #000;
+  font-family: var(--mini-paragraph-font-family);
+  font-size: var(--mini-paragraph-font-size);
+  font-style: var(--mini-paragraph-font-style);
+  font-weight: var(--mini-paragraph-font-weight);
+  letter-spacing: var(--mini-paragraph-letter-spacing);
+  line-height: var(--mini-paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+
+.screen .iconamoon-arrow-up {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+
+.screen .text-wrapper-8 {
+  color: #000;
+  font-family: var(--mini-paragraph-font-family);
+  font-size: var(--mini-paragraph-font-size);
+  font-style: var(--mini-paragraph-font-style);
+  font-weight: var(--mini-paragraph-font-weight);
+  letter-spacing: var(--mini-paragraph-letter-spacing);
+  line-height: var(--mini-paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 4px;
+  left: 76px;
+}
+
+.screen .logo-white {
+  object-fit: cover;
+  width: 159px;
+  height: 107px;
+  position: absolute;
+  top: 15px;
+  left: 204px;
+}
+
+.screen .overlap-wrapper {
+  width: 430px;
+  height: 553px;
+  position: absolute;
+  top: 147px;
+  left: 116px;
+}
+
+.screen .overlap {
+  height: 553px;
+  position: relative;
+}
+
+.screen .graphite {
+  width: 238px;
+  height: 482px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .overlap-group-3 {
+  height: 482px;
+  position: relative;
+}
+
+.screen .img-3 {
+  object-fit: cover;
+  width: 212px;
+  height: 461px;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+.screen .iphone-13-pro {
+  width: 241px !important;
+  height: 486px !important;
+  position: absolute !important;
+  top: 67px !important;
+  left: 189px !important;
+}
+
+.screen .iphone-pro-instance {
+  height: 486px !important;
+}
+
+.screen .iphone-13-pro-instance {
+  width: 215px !important;
+  height: 465px !important;
+  top: 10px !important;
+  left: 13px !important;
+}
+
+.screen .design-component-instance-node {
+  width: 241px !important;
+  height: 486px !important;
+}
+
+.custom-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 100px;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.screen {
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.screen .div {
+  background-color: #fff;
+  width: 1280px;
+  height: 753px;
+  position: relative;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.resolution-fix {
+  margin-top: -1.5px;
+}
+
+.screen .group {
+  background-color: #fff;
+  border: 1px solid #787878;
+  width: 514px;
+  height: 445px;
+  position: absolute;
+  top: 90px;
+  left: 650px;
+}
+
+.screen .group-2 {
+  width: 336px;
+  height: 304px;
+  position: relative;
+  top: 118px;
+  left: 96px;
+}
+
+.screen .frame-button {
+  background-color: var(--systembluedark);
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 240px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 260px;
+  left: 40px;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 14px 101px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.screen .text-wrapper-2 {
+  color: #fff;
+  font-family: var(--text-font-family);
+  font-size: var(--text-font-size);
+  font-style: var(--text-font-style);
+  font-weight: var(--text-font-weight);
+  letter-spacing: var(--text-letter-spacing);
+  line-height: var(--text-line-height);
+  text-align: center;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -6px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+.screen .group-3 {
+  width: 340px;
+  height: 181px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .group-4 {
+  width: 336px;
+  height: 46px;
+  position: absolute;
+  top: 135px;
+  left: 0;
+}
+
+.screen .div-wrapper {
+  background-color: #636366;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 158px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.button {
+  cursor: pointer;
+  color: #333;
+  background-color: #8f8f8f;
+  border: 1px solid #888;
+  border-radius: 6px;
+  margin: 0 10px;
+  padding: 14px 51px;
+}
+
+.button:hover {
+  background-color: #aaa;
+}
+
+.screen .frame-button-2 {
+  background-color: #636366;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+  width: 158px;
+  height: 44px;
+  padding: 16px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 178px;
+}
+
+.screen .text-wrapper-3 {
+  color: #505050;
+  font-family: var(--roboto-h3-font-family);
+  font-size: var(--roboto-h3-font-size);
+  font-style: var(--roboto-h3-font-style);
+  font-weight: var(--roboto-h3-font-weight);
+  letter-spacing: var(--roboto-h3-letter-spacing);
+  line-height: var(--roboto-h3-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 53px;
+  left: 66px;
+}
+
+.screen .text-wrapper-4 {
+  color: #000;
+  font-family: var(--roboto-h2-font-family);
+  font-size: var(--roboto-h2-font-size);
+  font-style: var(--roboto-h2-font-style);
+  font-weight: var(--roboto-h2-font-weight);
+  letter-spacing: var(--roboto-h2-letter-spacing);
+  line-height: var(--roboto-h2-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  left: 23px;
+}
+
+.screen .overlap-group-wrapper {
+  width: 516px;
+  height: 45px;
+  position: absolute;
+  top: 550px;
+  left: 650px;
+}
+
+.screen .overlap-group-2 {
+  background-color: #fff;
+  border: 1px solid #787878;
+  width: 514px;
+  height: 45px;
+  position: relative;
+}
+
+.screen .p {
+  color: #0000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  text-align: center;
+  width: 487px;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.screen .span {
+  color: #000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+}
+
+.screen .text-wrapper-5 {
+  color: #0396f6;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+}
+
+.screen .text-wrapper-6 {
+  color: #000;
+  font-family: var(--paragraph-font-family);
+  font-size: var(--paragraph-font-size);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+  letter-spacing: var(--paragraph-letter-spacing);
+  line-height: var(--paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 605px;
+  left: 790px;
+}
+
+.screen .social {
+  width: 298px;
+  height: 45px;
+  position: absolute;
+  top: 640px;
+  left: 750px;
+}
+
+.screen .unnamed {
+  object-fit: cover;
+  width: 153px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .download-on-the-app {
+  width: 134px;
+  height: 45px;
+  position: absolute;
+  top: 0;
+  left: 164px;
+}
+
+.screen .group-5 {
+  width: 300px;
+  height: 21px;
+  position: absolute;
+  top: 705px;
+  left: 491px;
+}
+
+.screen .select-language {
+  width: 72px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .text-wrapper-7 {
+  color: #000;
+  font-family: var(--mini-paragraph-font-family);
+  font-size: var(--mini-paragraph-font-size);
+  font-style: var(--mini-paragraph-font-style);
+  font-weight: var(--mini-paragraph-font-weight);
+  letter-spacing: var(--mini-paragraph-letter-spacing);
+  line-height: var(--mini-paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 4px;
+  left: 0;
+}
+
+.screen .iconamoon-arrow-up {
+  width: 21px;
+  height: 21px;
+  position: absolute;
+  top: 0;
+  left: 49px;
+}
+
+.screen .text-wrapper-8 {
+  color: #000;
+  font-family: var(--mini-paragraph-font-family);
+  font-size: var(--mini-paragraph-font-size);
+  font-style: var(--mini-paragraph-font-style);
+  font-weight: var(--mini-paragraph-font-weight);
+  letter-spacing: var(--mini-paragraph-letter-spacing);
+  line-height: var(--mini-paragraph-line-height);
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  top: 4px;
+  left: 76px;
+}
+
+.screen .logo-white {
+  object-fit: cover;
+  width: 159px;
+  height: 107px;
+  position: absolute;
+  top: 15px;
+  left: 204px;
+}
+
+.screen .overlap-wrapper {
+  width: 430px;
+  height: 553px;
+  position: absolute;
+  top: 147px;
+  left: 116px;
+}
+
+.screen .overlap {
+  height: 553px;
+  position: relative;
+}
+
+.screen .graphite {
+  width: 238px;
+  height: 482px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.screen .overlap-group-3 {
+  height: 482px;
+  position: relative;
+}
+
+.screen .img-3 {
+  object-fit: cover;
+  width: 212px;
+  height: 461px;
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+
+.screen .iphone-13-pro {
+  width: 241px !important;
+  height: 486px !important;
+  position: absolute !important;
+  top: 67px !important;
+  left: 189px !important;
+}
+
+.screen .iphone-pro-instance {
+  height: 486px !important;
+}
+
+.screen .iphone-13-pro-instance {
+  width: 215px !important;
+  height: 465px !important;
+  top: 10px !important;
+  left: 13px !important;
+}
+
+.screen .design-component-instance-node {
+  width: 241px !important;
+  height: 486px !important;
+}
+
+.custom-button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 100px;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+/*# sourceMappingURL=index.7e392595.css.map */

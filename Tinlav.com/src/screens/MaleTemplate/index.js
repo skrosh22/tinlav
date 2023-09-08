@@ -1,0 +1,1 @@
+export { MaleTemplate } from "./MaleTemplate";

@@ -1,0 +1,73 @@
+.iphone-pro {
+  height: 882px;
+  position: relative;
+  width: 437px;
+}
+
+.iphone-pro .overlap-group {
+  height: 882px;
+  position: relative;
+}
+
+.iphone-pro .img {
+  height: 844px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 19px;
+  width: 390px;
+}
+
+.iphone-pro .img-2 {
+  height: 882px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 437px;
+}
+
+.iphone-pro .statusbar-iphone {
+  height: 44px;
+  left: 24px;
+  position: absolute;
+  top: 19px;
+  width: 375px;
+}
+
+.iphone-pro .right-side {
+  height: 11px;
+  left: 290px;
+  position: absolute;
+  top: 17px;
+  width: 67px;
+}
+
+.iphone-pro .left-side {
+  height: 21px;
+  left: 24px;
+  position: absolute;
+  top: 12px;
+  width: 54px;
+}
+
+.iphone-pro .statusbar-time {
+  border-radius: 24px;
+  height: 21px;
+  position: relative;
+}
+
+.iphone-pro .text-wrapper {
+  color: var(--label-colorlightprimary);
+  font-family: var(--default-bold-subheadline-font-family);
+  font-size: var(--default-bold-subheadline-font-size);
+  font-style: var(--default-bold-subheadline-font-style);
+  font-weight: var(--default-bold-subheadline-font-weight);
+  left: 0;
+  letter-spacing: var(--default-bold-subheadline-letter-spacing);
+  line-height: var(--default-bold-subheadline-line-height);
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  white-space: nowrap;
+  width: 54px;
+}

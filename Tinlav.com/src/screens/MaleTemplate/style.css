@@ -1,0 +1,382 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #ffffff;
+    height: 753px;
+    position: relative;
+    width: 1280px;
+  }
+  
+  .screen .group {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #787878;
+    height: 445px;
+    left: 650px;
+    position: absolute;
+    top: 90px;
+    width: 514px;
+  }
+  
+  .screen .group-2 {
+    height: 52px;
+    left: 19px;
+    position: absolute;
+    top: 17px;
+    width: 52px;
+  }
+  
+  .screen .group-3 {
+    height: 306px;
+    left: 10px;
+    position: absolute;
+    top: 116px;
+    width: 494px;
+  }
+  
+  .screen .frame-button {
+    align-items: center;
+    background-color: var(--systembluedark);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 44px;
+    justify-content: space-around;
+    left: 126px;
+    padding: 16px;
+    position: absolute;
+    top: 262px;
+    width: 240px;
+  }
+  
+  .screen .text-wrapper-2 {
+    color: #ffffff;
+    font-family: var(--text-font-family);
+    font-size: var(--text-font-size);
+    font-style: var(--text-font-style);
+    font-weight: var(--text-font-weight);
+    letter-spacing: var(--text-letter-spacing);
+    line-height: var(--text-line-height);
+    margin-bottom: -4px;
+    margin-top: -6px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .screen .group-4 {
+    height: 181px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 498px;
+  }
+  
+  .screen .group-5 {
+    height: 44px;
+    left: 0;
+    position: absolute;
+    top: 137px;
+    width: 494px;
+  }
+  
+  .screen .div-wrapper {
+    align-items: center;
+    background-color: #636366;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 44px;
+    justify-content: space-around;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 158px;
+  }
+  
+  .screen .frame-button-2 {
+    align-items: center;
+    background-color: #636366;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 44px;
+    justify-content: space-around;
+    left: 168px;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 158px;
+  }
+  
+  .screen .frame-button-3 {
+    align-items: center;
+    background-color: #636366;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 44px;
+    justify-content: space-around;
+    left: 336px;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+    width: 158px;
+  }
+  
+  .screen .p {
+    color: #505050;
+    font-family: var(--roboto-h3-font-family);
+    font-size: var(--roboto-h3-font-size);
+    font-style: var(--roboto-h3-font-style);
+    font-weight: var(--roboto-h3-font-weight);
+    left: 73px;
+    letter-spacing: var(--roboto-h3-letter-spacing);
+    line-height: var(--roboto-h3-line-height);
+    position: absolute;
+    text-align: center;
+    top: 53px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-3 {
+    color: #000000;
+    font-family: var(--roboto-h2-font-family);
+    font-size: var(--roboto-h2-font-size);
+    font-style: var(--roboto-h2-font-style);
+    font-weight: var(--roboto-h2-font-weight);
+    left: 103px;
+    letter-spacing: var(--roboto-h2-letter-spacing);
+    line-height: var(--roboto-h2-line-height);
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .screen .overlap-group-wrapper {
+    height: 45px;
+    left: 650px;
+    position: absolute;
+    top: 550px;
+    width: 516px;
+  }
+  
+  .screen .overlap-group-2 {
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #787878;
+    height: 45px;
+    position: relative;
+    width: 514px;
+  }
+  
+  .screen .div-2 {
+    color: transparent;
+    font-family: var(--paragraph-font-family);
+    font-size: var(--paragraph-font-size);
+    font-style: var(--paragraph-font-style);
+    font-weight: var(--paragraph-font-weight);
+    left: 12px;
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    position: absolute;
+    text-align: center;
+    top: 12px;
+    width: 487px;
+  }
+  
+  .screen .span {
+    color: #000000;
+    font-family: var(--paragraph-font-family);
+    font-size: var(--paragraph-font-size);
+    font-style: var(--paragraph-font-style);
+    font-weight: var(--paragraph-font-weight);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+  }
+  
+  .screen .text-wrapper-4 {
+    color: #0396f6;
+    font-family: var(--paragraph-font-family);
+    font-size: var(--paragraph-font-size);
+    font-style: var(--paragraph-font-style);
+    font-weight: var(--paragraph-font-weight);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+  }
+  
+  .screen .text-wrapper-5 {
+    color: #000000;
+    font-family: var(--paragraph-font-family);
+    font-size: var(--paragraph-font-size);
+    font-style: var(--paragraph-font-style);
+    font-weight: var(--paragraph-font-weight);
+    left: 790px;
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    position: absolute;
+    text-align: center;
+    top: 605px;
+    white-space: nowrap;
+  }
+  
+  .screen .social {
+    height: 45px;
+    left: 750px;
+    position: absolute;
+    top: 640px;
+    width: 298px;
+  }
+  
+  .screen .unnamed {
+    height: 45px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 153px;
+  }
+  
+  .screen .download-on-the-app {
+    height: 45px;
+    left: 164px;
+    position: absolute;
+    top: 0;
+    width: 134px;
+  }
+  
+  .screen .group-6 {
+    height: 21px;
+    left: 491px;
+    position: absolute;
+    top: 705px;
+    width: 300px;
+  }
+  
+  .screen .select-language {
+    height: 21px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+  
+  .screen .text-wrapper-6 {
+    color: #000000;
+    font-family: var(--mini-paragraph-font-family);
+    font-size: var(--mini-paragraph-font-size);
+    font-style: var(--mini-paragraph-font-style);
+    font-weight: var(--mini-paragraph-font-weight);
+    left: 0;
+    letter-spacing: var(--mini-paragraph-letter-spacing);
+    line-height: var(--mini-paragraph-line-height);
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    white-space: nowrap;
+  }
+  
+  .screen .iconamoon-arrow-up {
+    height: 21px;
+    left: 49px;
+    position: absolute;
+    top: 0;
+    width: 21px;
+  }
+  
+  .screen .text-wrapper-7 {
+    color: #000000;
+    font-family: var(--mini-paragraph-font-family);
+    font-size: var(--mini-paragraph-font-size);
+    font-style: var(--mini-paragraph-font-style);
+    font-weight: var(--mini-paragraph-font-weight);
+    left: 76px;
+    letter-spacing: var(--mini-paragraph-letter-spacing);
+    line-height: var(--mini-paragraph-line-height);
+    position: absolute;
+    text-align: center;
+    top: 4px;
+    white-space: nowrap;
+  }
+  
+  .screen .logo-white {
+    height: 107px;
+    left: 204px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 159px;
+  }
+  
+  .screen .overlap-wrapper {
+    height: 553px;
+    left: 116px;
+    position: absolute;
+    top: 145px;
+    width: 430px;
+  }
+  
+  .screen .overlap {
+    height: 553px;
+    position: relative;
+  }
+  
+  .screen .graphite {
+    height: 482px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 238px;
+  }
+  
+  .screen .overlap-group-3 {
+    height: 482px;
+    position: relative;
+  }
+  
+  .screen .img-3 {
+    height: 461px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 10px;
+    width: 212px;
+  }
+  
+  .screen .iphone-13-pro {
+    height: 486px !important;
+    left: 189px !important;
+    position: absolute !important;
+    top: 67px !important;
+    width: 241px !important;
+  }
+  
+  .screen .iphone-pro-instance {
+    height: 486px !important;
+  }
+  
+  .screen .iphone-13-pro-instance {
+    height: 465px !important;
+    left: 13px !important;
+    top: 10px !important;
+    width: 215px !important;
+  }
+  
+  .screen .design-component-instance-node {
+    height: 486px !important;
+    width: 241px !important;
+  }
+  
